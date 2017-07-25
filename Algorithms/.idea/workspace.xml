@@ -11,7 +11,18 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="2HourGlass.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Arrays/2HourGlass.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,6 +43,8 @@
         <option value="$PROJECT_DIR$/DataStructures/InsertAtPositionLinkedList.py" />
         <option value="$PROJECT_DIR$/DataStructures/DeleteNodeLinkedList.py" />
         <option value="$PROJECT_DIR$/DataStructures/6ReversePrintLinkedList.py" />
+        <option value="$PROJECT_DIR$/Arrays/1ReversedArray.py" />
+        <option value="$PROJECT_DIR$/Arrays/2HourGlass.py" />
       </list>
     </option>
   </component>
@@ -56,8 +69,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -80,7 +93,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DataStructures" />
+              <option name="myItemId" value="Arrays" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -247,8 +260,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1338" height="688" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25113463" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25113463" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -297,35 +311,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/1LinkedList.py">
+    <entry file="file://$PROJECT_DIR$/LinkedList/1LinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="15" lean-forward="false" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/2InsertAtTailLinkedList.py">
+    <entry file="file://$PROJECT_DIR$/LinkedList/2InsertAtTailLinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/3InsertAtHeadLinkedList.py">
+    <entry file="file://$PROJECT_DIR$/LinkedList/3InsertAtHeadLinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/DeleteNodeLinkedList.py">
+    <entry file="file://$PROJECT_DIR$/LinkedList/DeleteNodeLinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="46" lean-forward="true" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/InsertAtPositionLinkedList.py">
+    <entry file="file://$PROJECT_DIR$/LinkedList/InsertAtPositionLinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
           <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
@@ -402,45 +416,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/1LinkedList.py">
+    <entry file="file://$PROJECT_DIR$/LinkedList/1LinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="15" lean-forward="false" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/2InsertAtTailLinkedList.py">
+    <entry file="file://$PROJECT_DIR$/LinkedList/2InsertAtTailLinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/3InsertAtHeadLinkedList.py">
+    <entry file="file://$PROJECT_DIR$/LinkedList/3InsertAtHeadLinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/DeleteNodeLinkedList.py">
+    <entry file="file://$PROJECT_DIR$/LinkedList/DeleteNodeLinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="46" lean-forward="true" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/InsertAtPositionLinkedList.py">
+    <entry file="file://$PROJECT_DIR$/LinkedList/InsertAtPositionLinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="491">
           <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/6ReversePrintLinkedList.py">
+    <entry file="file://$PROJECT_DIR$/LinkedList/6ReversePrintLinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrays/1ReversedArray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrays/2HourGlass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding />
         </state>
       </provider>
