@@ -1,0 +1,25 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+k, m = raw_input().split()
+sum=0
+for i in range(int(k)):
+    l = map(int, raw_input().split())[1:]
+    mx = max(l)
+    #print l, mx
+    sum = sum+(mx**2)
+    #print i, l, sum, mx
+print sum%int(m)
+
+
+
+K, M = [int(x) for x in input().split()]
+arrayN = []
+for _i_ in range(K):
+    arrayN.append([int(x) for x in input().split()][1:])
+    
+from itertools import product
+possible_combination = list(product(*arrayN))
+
+def func(nums):
+    return sum(x*x for x in nums) % M
+
+print(max(list(map(func, possible_combination))))

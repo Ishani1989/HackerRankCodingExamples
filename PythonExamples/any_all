@@ -1,0 +1,2 @@
+a,b = raw_input(),raw_input().split()
+print all([int(i)>0 for i in b]) and any(int(a) == int(a[::-1]) for a in b)

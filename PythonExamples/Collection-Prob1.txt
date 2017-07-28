@@ -1,0 +1,12 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+x = int(raw_input())
+shoes = raw_input().split()
+cust = int(raw_input())
+total = 0
+for i in range(int(cust)):
+    size, price = raw_input().split()
+    if size in shoes:
+        print total, price
+        total += int(price)
+        
+print total

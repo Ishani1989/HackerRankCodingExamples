@@ -1,0 +1,9 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+from itertools import combinations_with_replacement
+s, n = raw_input().split()
+for i in range(int(n), int(n)+1):
+    for j in combinations_with_replacement(sorted(s), i):
+        print ''.join(j)
+
+
+

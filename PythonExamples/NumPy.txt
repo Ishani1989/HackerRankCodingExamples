@@ -1,0 +1,13 @@
+import numpy
+a = numpy.array(map(int, raw_input().split()))
+print numpy.reshape(a,(3,3))
+
+
+import numpy
+N, M = map(int, raw_input().split())
+L = []
+for i in range(N):
+    L.append(map(int, raw_input().split()))
+my_arr = numpy.array(L)
+print numpy.transpose(my_arr)
+print my_arr.flatten()

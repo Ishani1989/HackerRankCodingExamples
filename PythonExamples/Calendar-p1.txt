@@ -1,0 +1,7 @@
+>>> calendar.weekday(2017,05,24)
+2
+>>> calendar.day_name[0]
+'Monday'
+>>> calendar.day_name[calendar.weekday(2017,05,23)]
+'Tuesday'
+>>> q

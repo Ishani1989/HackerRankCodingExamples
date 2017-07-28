@@ -1,0 +1,14 @@
+#XML 1 - Find the Score
+
+def get_attr_number(node):
+    #tree = etree.ElementTree(etree.fromstring(node)) 
+    sum = len(node.attrib)
+    #print len(node.attrib)
+    for c in node:
+        if c.getchildren() == []:
+            sum+= len(c.attrib)
+        else:
+            for smallchild in c:
+                sum+=len(smallchild.attrib)
+    return sum
+    # your code goes here

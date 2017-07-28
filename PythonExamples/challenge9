@@ -1,0 +1,19 @@
+if __name__ == '__main__':
+    n = int(raw_input())
+    arr = map(int, raw_input().split())
+    largest = arr[0]
+    second = 0
+    for x in arr:
+        if x < 0:
+            if second < 0:
+                pass 
+            elif x > second:
+                second = x
+        else:        
+            if x > largest:
+                second = largest
+                largest = x
+            elif x > second and x < largest:
+                second = x
+
+    print (second)

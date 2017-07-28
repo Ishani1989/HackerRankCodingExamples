@@ -1,0 +1,10 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+import math
+x = int(raw_input())
+y = int(raw_input())
+
+c = (math.sqrt(x*x+y*y))/2
+
+print str(int(math.degrees(math.acos(c/y))))+unichr(176)
+
+

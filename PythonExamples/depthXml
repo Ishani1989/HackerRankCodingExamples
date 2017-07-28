@@ -1,0 +1,40 @@
+maxdepth = -1
+def depth(elem, level):
+    global maxdepth
+    if elem.getchildren() == []:
+        pass
+    else:
+        if level == maxdepth:
+            maxdepth += 1
+        for i in elem:
+            depth(i, level+1)     
+    return maxdepth
+
+
+maxdepth = -1
+def depth(elem, level):
+    global maxdepth
+    if (level == maxdepth):
+        print 'level == maxdepth' ,level
+        maxdepth += 1
+    #print elem.attrib    
+    for child in elem:
+        depth(child, level + 1)
+    return maxdepth
+
+
+14
+<feed xml:lang='en'>
+  <title>HackerRank
+  	<version x='1'>5.0</version>
+  </title>
+  <subtitle lang='en'>Programming challenges
+  <title>HackerRank
+  	<version x='1'>
+  		<teddy>abc</teddy>
+  	</version>
+  </title>  
+  </subtitle>
+  <link rel='alternate' type='text/html' href='http://hackerrank.com/'/>
+  <updated>2013-12-25T12:00:00</updated>
+</feed>

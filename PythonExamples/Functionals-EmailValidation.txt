@@ -1,0 +1,27 @@
+def fun(s):
+    ret = False
+    if '@' in s and '.' in s:
+        l1, l2 = s.split('@')
+        l2, l3 = l2.split('.')
+        # print l1, l2, l3
+
+        # The maximum length of the extension is . 
+        if len(l3)==3:
+            #The username can only contain letters, digits, dashes and underscores.    
+            for i in l1:
+              ret = False if not i.isalnum() and not i=='-' and not i=='_' else True
+              print i, ret
+              if ret == False:
+                break
+            if ret == True:
+              # The website name can only have letters and digits.
+              for i in l2:
+                ret = False if not i.isalnum() else True
+                print i, ret
+                if ret == False:
+                  break
+            return ret   
+        else:
+            return ret 
+            
+print fun('kutkuti_-1@gmail-.com')
