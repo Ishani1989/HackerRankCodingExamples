@@ -1,0 +1,33 @@
+#!/bin/python
+
+import sys
+
+def balanced(s):
+    index=0
+    stack = []
+    for x in s:
+        if x in {'}',']',')'} and len(stack)==0:
+            return False
+        elif x == '}' and stack[index-1]=='{':
+            stack.pop(index-1)
+            index -= 1
+        elif x == ']' and stack[index-1]=='[':
+            stack.pop(index-1)
+            index -= 1
+        elif x == ')' and stack[index-1]=='(':
+            stack.pop(index-1)
+            index -= 1
+        elif x == '{' or '[' or '(':
+            stack.append(x)
+            index += 1
+
+    return len(stack) == 0
+
+t = int(raw_input().strip())
+for a0 in xrange(t):
+    s = raw_input().strip()
+    result = balanced(s)
+    if result:
+        print "YES"
+    else:
+        print "NO"
